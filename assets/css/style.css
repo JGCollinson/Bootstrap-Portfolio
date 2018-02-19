@@ -1,17 +1,14 @@
 @charset "UTF-8";
 .body {
-	background-color: #777;
+	background-image: url(../../../Responsive-Portfolio/Responsive-Portfolio/assets/images/polka-dots.png);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	float: center;
+}
+.nav{
 	width: 960px;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	font-size: 18px;
-	color: #777
 }
 .primary_header {
 	background-color: #ebebeb;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	clear: left;
-	margin: 10px;
 }
 .secondary_header {
 	text-align: center;
@@ -23,11 +20,9 @@
 	margin-top: 10px;
 	margin-left: 10px;
 }
-
 .section {
 	float: left;
 	width: 495px;
-	height: 240px;
 	text-align: center;
 	background-color: #ebebeb;
 	margin-bottom: 10px;
@@ -36,8 +31,7 @@
 }
 .aside {
 	float: right;
-	height: 210px;
-	width: 430px;
+	width: 270px;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -58,7 +52,6 @@
 	margin: 10px;
 	padding: 10px;
 }
-
 .footer {
 	text-align: center;
 	clear: both;
@@ -67,15 +60,15 @@
 	background-color: #ebebeb;
 	margin: 10px;
 }
-.title {
-	text-align: center;
-	color: #777;
-	margin: 10px;
+#links {
+position: absolute;
+  right: 0px;
+	top: 0px;
+  text-align: center;
+  background-color: #ebebeb;
 }
-
-#whitetxt {
-	color: white
-}
-
+h {
+font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	}
 
 
