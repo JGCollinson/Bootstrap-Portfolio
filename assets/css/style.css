@@ -1,14 +1,32 @@
 @charset "UTF-8";
 .body {
-	background-image: url(../../../Responsive-Portfolio/Responsive-Portfolio/assets/images/polka-dots.png);
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	float: center;
+	background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
 }
-.nav{
+.container{
+	margin: auto;
 	width: 960px;
 }
+.nav{
+/* Box-model */
+	height: 67px;
+	width: 100%;
+	
+  /* Typography */
+  color: #eee;
+  text-align: left;
+
+  /* Visual */
+  background: #ffffff;
+	border-bottom: 3px solid;
+	border-bottom-color: #cccccc;
+	clear: both;
+}
 .primary_header {
-	background-color: #ebebeb;
+	background-color: #4aaaa5;
+	float: left;
+	align-content: center;
+	width: 250px;
+	padding: 20px;
 }
 .secondary_header {
 	text-align: center;
@@ -24,20 +42,22 @@
 	float: left;
 	width: 495px;
 	text-align: center;
-	background-color: #ebebeb;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	background-color: #ffffff;
+	padding: 10px;
+	border: 10px;
+	border-color: #dddddd;
+	clear: both;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .aside {
 	float: right;
 	width: 270px;
-	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	background-color:#ebebeb;
-	padding-top: 30px;
+	padding: 15px;
 }
 .article {
 	background-color: #777;
@@ -57,18 +77,20 @@
 	clear: both;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #ebebeb;
-	margin: 10px;
+	margin-top: 10px;
+	background-color: #666666;
 }
 #links {
-position: absolute;
-  right: 0px;
-	top: 0px;
+float: right;
   text-align: center;
-  background-color: #ebebeb;
+	padding-top: 20px;
 }
-h {
-font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	}
 
+p {
+	color:#777777;
+}
+
+h1 {
+	font-size: 50px;
+	}
 
