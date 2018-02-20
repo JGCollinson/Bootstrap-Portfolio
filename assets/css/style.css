@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .body {
 	background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .container{
 	margin: auto;
@@ -8,7 +9,7 @@
 }
 .nav{
 /* Box-model */
-	height: 67px;
+	height: 66px;
 	width: 100%;
 	
   /* Typography */
@@ -17,6 +18,7 @@
 
   /* Visual */
   background: #ffffff;
+	border-top: 3px solid #FFFFFF;
 	border-bottom: 3px solid;
 	border-bottom-color: #cccccc;
 	clear: both;
@@ -24,9 +26,11 @@
 .primary_header {
 	background-color: #4aaaa5;
 	float: left;
+	text-align: center;
 	align-content: center;
 	width: 250px;
 	padding: 20px;
+	border-radius: 10px;
 }
 .secondary_header {
 	text-align: center;
@@ -40,31 +44,33 @@
 }
 .section {
 	float: left;
-	width: 495px;
-	text-align: center;
+	width: 650px;
 	background-color: #ffffff;
-	padding: 10px;
-	border: 10px;
 	border-color: #dddddd;
-	clear: both;
+	padding: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#profilepic{
+	border: 10px solid #4AAAA5;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	
 }
 .aside {
 	float: right;
 	width: 270px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 10px;
 	text-align: center;
 	background-color:#ebebeb;
-	padding: 15px;
+	border-radius: 10px;
 }
 .article {
-	background-color: #777;
-	text-align: center;
-	margin: 10px;
-	border: 10px solid;
-	border-color: #777;
+	text-align: left;
 }
 .sub_article {
 	background-color: #ebebeb;
@@ -74,23 +80,37 @@
 }
 .footer {
 	text-align: center;
+	color: white;
 	clear: both;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 25px;
+	border-top: 15px solid #4AAAA5;
 	margin-top: 10px;
 	background-color: #666666;
+	/* Box-model */
+
 }
 #links {
 float: right;
   text-align: center;
-	padding-top: 20px;
+	padding-top: 23px;
 }
 
 p {
-	color:#777777;
+	font-size: 16px;
+	line-height: 2;
+	color: #777777;
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	}
+a {
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #777777;
+	text-decoration: none;
 	}
 
