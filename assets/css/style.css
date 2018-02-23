@@ -7,17 +7,16 @@
 	margin: auto;
 	width: 960px;
 }
+.container > h1{
+	font-size: 26px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
 .nav{
-/* Box-model */
 	height: 66px;
 	width: 100%;
-	
-  /* Typography */
-  color: #eee;
-  text-align: left;
-
-  /* Visual */
-  background: #ffffff;
+  	color: #eee;
+  	text-align: left;
+  	background: #ffffff;
 	border-top: 3px solid #FFFFFF;
 	border-bottom: 3px solid;
 	border-bottom-color: #cccccc;
@@ -47,14 +46,14 @@
 	width: 610px;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	padding: 20px;
+	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 10px;
 }
 .aside {
 	float: right;
-	width: 270px;
+	width: 250px;
 	margin-top: 10px;
 	padding: 10px;
 	text-align: center;
@@ -65,7 +64,6 @@
 	text-align: left;
 }
 .form{
-	margin: 10px;
 	color: #777777;
 }
 .inText{
@@ -78,12 +76,21 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-.picContain {
+.picContainR {
 	position: relative;
 	height: 200px;
 	width: 275px;
 	margin: 10px;
 	margin-bottom: 25px;
+	float: right;
+}
+.picContainL {
+	position: relative;
+	height: 200px;
+	width: 275px;
+	margin: 10px;
+	margin-bottom: 25px;
+	float: left;
 }
 .picText{
 	position: absolute;
@@ -106,31 +113,27 @@
 	margin-top: 10px;
 	background-color: #666666;
 	/* Box-model */
-
 }
 #links {
-float: right;
-  text-align: center;
+	float: right;
+	text-align: center;
 	padding-top: 23px;
+	font-size: 16px;
+	color: #777777;
+	text-decoration: none;
 }
-
-h1 {
-	font-size: 28px;
-	font-weight: bold;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	}
 a {
 	font-size: 16px;
 	margin-left: 5px;
 	margin-right: 5px;
 	color: #777777;
 	text-decoration: none;
-	}
+}
 #profilepic{
 	border: 10px solid #4AAAA5;
 	float: left;
 	margin-right: 10px;
-	margin-left: 10px;
+	margin-top: 10px;
 	border-radius: 10px;
 }
 #message{
@@ -157,11 +160,42 @@ a {
 hr{
 	background-color: #dddddd;
 	border: none;
-	width: 96%;
+	width: 100%;
 }
 p {
 	font-size: 16px;
 	line-height: 2;
 	color: #777777;
 }
+.section > h1 {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #4AAAA5; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+.aside > h1 {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #4AAAA5; 
+	padding: 10px;
+	}
+#links {
+	float: right;
+	text-align: center;
+	padding-top: 23px;
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #777777;
+	text-decoration: none;
+		}
+.aside > a {		
+	float: center;
+	margin: auto;
+	color: #777777;
+	text-decoration: none;
+		}
 
