@@ -44,21 +44,13 @@
 }
 .section {
 	float: left;
-	width: 650px;
+	width: 610px;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	padding: 5px;
+	padding: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 10px;
-}
-#profilepic{
-	border: 10px solid #4AAAA5;
-	float: left;
-	margin-right: 10px;
-	margin-left: 10px;
-	border-radius: 10px;
-	
 }
 .aside {
 	float: right;
@@ -66,17 +58,44 @@
 	margin-top: 10px;
 	padding: 10px;
 	text-align: center;
-	background-color:#ebebeb;
+	background-color:#ffffff;
 	border-radius: 10px;
 }
 .article {
 	text-align: left;
 }
-.sub_article {
-	background-color: #ebebeb;
-	text-align: center;
+.form{
 	margin: 10px;
+	color: #777777;
+}
+.inText{
+	width: 100%;
 	padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	resize: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.picContain {
+	position: relative;
+	height: 200px;
+	width: 275px;
+	margin: 10px;
+	margin-bottom: 25px;
+}
+.picText{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#4AAAA5;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .footer {
 	text-align: center;
@@ -95,14 +114,8 @@ float: right;
 	padding-top: 23px;
 }
 
-p {
-	font-size: 16px;
-	line-height: 2;
-	color: #777777;
-}
-
 h1 {
-	font-size: 26px;
+	font-size: 28px;
 	font-weight: bold;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	}
@@ -113,4 +126,42 @@ a {
 	color: #777777;
 	text-decoration: none;
 	}
+#profilepic{
+	border: 10px solid #4AAAA5;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+#message{
+	width: 100%;
+    height: 150px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+	margin-top: 10px;
+    border-radius: 4px;
+    resize: none;
+}
+#submit{
+	border: none;
+	background-color: #4aaaa5;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+hr{
+	background-color: #dddddd;
+	border: none;
+	width: 96%;
+}
+p {
+	font-size: 16px;
+	line-height: 2;
+	color: #777777;
+}
 
