@@ -1,4 +1,7 @@
 @charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
 .body {
 	background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -12,7 +15,7 @@
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 }
 .nav{
-	height: 66px;
+	height: 72px;
 	width: 100%;
   	color: #eee;
   	text-align: left;
@@ -27,7 +30,7 @@
 	float: left;
 	text-align: center;
 	align-content: center;
-	width: 250px;
+	width: 270px;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -43,7 +46,7 @@
 }
 .section {
 	float: left;
-	width: 610px;
+	width: 650px;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	padding: 10px;
